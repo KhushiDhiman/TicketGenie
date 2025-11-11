@@ -87,45 +87,6 @@ To get a local copy of the project up and running, follow these steps:
 - Python 3.12 or higher
 - PostgreSQL database
 
-### 🔖Setup Instructions
-
-1. **Clone the repository**
-
-    ```bash
-    git clone https://github.com/AdityaSrivastavDS/Multilingual-Chatbot-Ticket-Booking-System
-    ```
-
-2. **Navigate to the project directory**
-
-    ```bash
-    cd multilingual-chatbot-ticket-booking-system
-    ```
-
-3. **Install the required Python packages**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Set up your PostgreSQL database**
-
-    Set up your PostgreSQL database on Render or locally. Add your database URL in the `.env` file:
-
-    ```bash
-    DATABASE_URL=your_postgresql_url_here
-    ```
-
-5. **Run the Flask app**
-
-    ```bash
-    python app.py
-    ```
-
-6. **Open your browser**
-
-    Go to [http://localhost:5000](http://localhost:5000).
-
-
 ### 🔖Tech Stack
 
 - **Backend:** Flask (Python), Render (for PostgreSQL database hosting)
@@ -150,9 +111,4 @@ The app is deployed using Vercel for the frontend and Render for the PostgreSQL 
 2. Connect your project’s GitHub repository to Vercel.
 3. Configure Render for PostgreSQL and add the `DATABASE_URL` to Vercel's environment variables.
 
-### 📓Contributing
 
-Contributions are welcome!
-
-## 📜License
-Repository protected through [License](#license) .
